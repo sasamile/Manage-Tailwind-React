@@ -2,7 +2,7 @@ import "./index.css";
 import Header from "./components/navbar/Header";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
-import Figure from "./components/fondo/figure";
+import Figure from "./components/fondo/Figure";
 
 function App() {
   return (
