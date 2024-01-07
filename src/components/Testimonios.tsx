@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Carousel } from "../Resources/Resources";
 import Button from "./Button";
 
