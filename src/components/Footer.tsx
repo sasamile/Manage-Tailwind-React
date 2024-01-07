@@ -45,7 +45,7 @@ function Footer() {
               <button className="bg-bright-red w-28 rounded-full  ml-2">Go</button>
             </div>
             <div>
-              <p className="text-white text-lg">Copyright 2020 All Rights Reserved</p>
+              <p className="text-white text-lg">Copyright 2024 All Rights Reserved</p>
             </div>
           </div>
         </div>
