@@ -1,4 +1,4 @@
-import tablet from "../../assets/images/bg-tablet-pattern.svg"
+import tablet from "../assets/images/bg-tablet-pattern.svg"
 
 function Figure() {
   return (

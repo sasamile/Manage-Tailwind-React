@@ -1,15 +1,14 @@
-import { SeccionFooter } from "../seccion/Seccion";
-import facebok from "../../assets/images/icon-facebook.svg";
-import instagram from "../../assets/images/icon-instagram.svg";
-import pinterest from "../../assets/images/icon-pinterest.svg";
-import youtube from "../../assets/images/icon-youtube.svg";
-import icono from "../../assets/images/logo.svg";
-import navbar from "../../Resources/Resources";
+
+import facebok from "../assets/images/icon-facebook.svg";
+import instagram from "../assets/images/icon-instagram.svg";
+import pinterest from "../assets/images/icon-pinterest.svg";
+import youtube from "../assets/images/icon-youtube.svg";
+import icono from "../assets/images/logo.svg";
+import navbar from "../Resources/Resources";
 
 function Footer() {
   return (
     <footer>
-      <SeccionFooter />
       <section className="bg-very-dark-blue h-full text-2xl ">
         <div className="w-[80%] mx-auto h-full py-28 grid grid-cols-4 gap-28 max-lg:grid-cols-2">
           <div className="grid gap-28 max-lg:col-span-2 max-lg:place-items-center ">

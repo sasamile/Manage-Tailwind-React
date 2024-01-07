@@ -1,15 +1,25 @@
 import "./index.css";
-import Header from "./components/navbar/Header";
-import Main from "./components/main/Main";
-import Footer from "./components/footer/Footer";
-import Figure from "./components/fondo/Figure";
+import Navbar from "./components/Navbar";
+import Figure from "./components/Figure";
+import Heroe from "./components/Heroe";
+import Main from "./components/Main";
+import  SeccionMain  from "./components/Seccion";
+import Testimonios from "./components/Testimonios";
+import SeccionFooter from "./components/SeccionFotter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Header />
-      <Figure />
-      <Main />
+      <Navbar>
+        <Figure />
+      </Navbar>
+      <Heroe/>
+      <Main>
+          <SeccionMain/>
+          <Testimonios/>
+          <SeccionFooter/>
+      </Main>
       <Footer />
     </>
   );

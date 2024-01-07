@@ -1,6 +1,6 @@
-import { heroe } from "../../Resources/Resources";
-import { BotonHeroe } from "../../Resources/botones";
-import ilutracion from "../../assets/images/illustration-intro.svg";
+import { heroe } from "../Resources/Resources";
+import ilutracion from "../assets/images/illustration-intro.svg";
+import Button from "./Button";
 
 function Heroe() {
   return (
@@ -12,7 +12,11 @@ function Heroe() {
         <p className="text-dark-grayish-ble text-lg ">{heroe.texto}</p>
         <br />
         <br />
-        <BotonHeroe />
+        <Button
+        type="button"
+        title="Get Started"
+        variant="bg-bright-red text-vary-light-gray shadow-bright-red/30"
+        />
       </article>
     </section>
   );
